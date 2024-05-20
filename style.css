@@ -29,3 +29,30 @@
     width:50%;
     color:gray;
 }
+
+/*ex2*/
+
+.menu{
+    padding:25px
+}
+
+.Home{
+    font-weight: bold;
+    float: left;
+    padding:25px
+}
+
+.QuemSomos{
+    float: left;
+    padding:25px
+}
+
+.Clientes{
+    float: left;
+    padding:25px
+}
+
+.Contactos{
+    float: left;
+    padding:25px
+}

@@ -1,0 +1,31 @@
+.maincontainer{
+    width:100%;
+}
+
+.container1{
+    background-color: lime;
+    float: left;
+    width:16%;
+    color:lime;
+}
+
+.container2{
+    background-color: blueviolet;
+    float: left;
+    width:16%;
+    color:blueviolet;
+}
+
+.container3{
+    background-color: purple;
+    float: left;
+    width:16%;
+    color:purple;
+}
+
+.container4{
+    background-color: gray;
+    float: left;
+    width:50%;
+    color:gray;
+}

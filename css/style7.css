@@ -1,0 +1,30 @@
+.firstsquare{
+    width:200px;
+    height:200px;
+    background-color: darkseagreen;
+    border:2px solid darkolivegreen;
+    position:relative;
+}
+
+.secondsquare{
+    width:200px;
+    height:200px;
+    background-color: rgb(145, 238, 145);
+    border:2px solid darkolivegreen;
+    position:absolute;
+    top:100px;
+    left:100px;
+    z-index: 10;
+
+}
+
+.thirdsquare{
+    width:200px;
+    height:200px;
+    background-color: rgb(97, 161, 97);
+    border:2px solid darkolivegreen;
+    position:absolute;
+    top:200px;
+    left:200px;
+
+}

@@ -82,3 +82,23 @@ ul {
     padding-right: 25px;
     padding-left: 25px;
 }
+
+/*exemplo*/
+
+.pai{
+    width: 500px;
+    height: 500px;
+    background-color: deepskyblue;
+    margin: 100px auto;
+    position:relative;
+}
+
+.filho{
+    width:100px;
+    height:100px;
+    background-color: #FFcc00;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+

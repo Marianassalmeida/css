@@ -1,0 +1,51 @@
+.container{
+    width:200px;
+    height:200px;
+    background-color:salmon;
+    border: 3px solid blue;
+    margin:100px auto;
+    position:relative;
+}
+
+
+
+.maincontainer{
+    width:400px;
+    height:400px;
+    background-color:salmon;
+    border: 3px solid blue;
+    margin:100px auto;
+    position:relative;
+}
+
+.childcontainer{
+    width:200px;
+    height:200px;
+    background-color:salmon;
+    border: 3px solid blue;
+    position:absolute;
+    top:0px;
+    left:0px;
+
+}
+
+.parentcontainer{
+    width:400px;
+    height:400px;
+    background-color:salmon;
+    border: 3px solid blue;
+    margin:100px auto;
+    position:relative;
+}
+
+.soncontainer{
+    width:200px;
+    height:200px;
+    background-color:salmon;
+    border: 3px solid blue;
+    position:absolute;
+    top:100px;
+    left:100px;
+
+}
+

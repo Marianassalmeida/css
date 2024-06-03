@@ -3,47 +3,32 @@ body {
 }
 
 
-p{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.mainmenu{
-    height: 80px;
-    width: 100%;
+.menu{
+    display:flex;
+    list-style-type: none;
+    padding:30px;
     background-color: greenyellow;
     border: 1px solid black;
 }
-
-.mainmenu > div:nth-child(1),
-.mainmenu > div:nth-child(2),
-.mainmenu > div:nth-child(3),
-.mainmenu > div:nth-child(4),
-.mainmenu > div:nth-child(5),
-.mainmenu > div:nth-child(6) {
-    float:left;
-    text-align: center;
-    padding: 8px 100px;
-    align-items: center;
-    position:relative;
+    
+.menu > li{
+    padding: 0px 100px 00px 100px;
+    font-weight: bold;
+    font-size:20px;
 }
 
-.mainmenu > div:nth-child(1):hover,
-.mainmenu > div:nth-child(2):hover,
-.mainmenu > div:nth-child(3):hover,
-.mainmenu > div:nth-child(4):hover,
-.mainmenu > div:nth-child(5):hover,
-.mainmenu > div:nth-child(6):hover {
-    background-color: rgb(200, 255, 178);
+.submenu{
+    display:none;
+    list-style-type: none;
+    background-color: pink;
+    position: absolute;
+    transform: translateX(-20px);
+    padding:20px;
+    
 }
 
-.submenu > div:nth-child(1){
-    position:absolute;
+.menu > li:hover .submenu{
     display: block;
-}
-
-.submenu > div:nth-child(1):hover{
-    background-color: rgb(200, 255, 178);
 }
 
 
